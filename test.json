@@ -1,0 +1,11 @@
+{
+  "memberType": "C",
+  "message": {
+    "deepLink": "string",
+    "imageUrl": "string",
+    "message": "테스트 메세지 내용",
+    "title": "테스트 제목"
+  },
+  "receivers": ["arn:aws:sns:ap-northeast-2:552501716673:endpoint/GCM/edithome-qa/71a38ef4-627d-3b28-a0f2-2a27f22f331d"],
+  "type": "APP"
+}

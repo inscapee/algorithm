@@ -18,6 +18,11 @@
   - 문제 풀기(난이도 중) : 1시간
   - 문제 리뷰 : 1시간(문제를 해결 한 사람 발언건 우선)
 
+### 백준 node.js 입력 받는 방법
+```javascript
+const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
+```
+
 ## 커리큘럼
 
 | 주차  | 내용                                                   |

@@ -20,7 +20,7 @@
 
 ### 백준 node.js 입력 받는 방법
 ```javascript
-const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
+const input = require('fs').readFileSync('/dev/stdin').toString();
 ```
 
 ## 커리큘럼
@@ -28,7 +28,7 @@ const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('
 | 주차  | 내용                                                   | 과제 |
 | :---: | :----------------------------------------------------- | - |
 | 1주차 | Big-O 표기법        | |
-| 2주차 | 구현(Implementation), 자료구조(비선형 구조, 파일 구조) | 10808, 16236, 11332|
+| 2주차 | 구현(Implementation) | 10808, 16236, 11332|
 | 3주차 | 탐색(배열 탐색, 문자열 탐색, 완전탐색)                 | |
 | 4주차 | DFS, BFS                                               | |
 | 5주차 | DP,                                                    | |

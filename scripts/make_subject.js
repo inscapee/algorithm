@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // 참가자
-const participants = ['bright', 'luka', 'negan', 'pepe', 'kei'];
+const participants = ['bright', 'luka', 'negan', 'pepe', 'kei', 'raina'];
 
 const directoryName = process.argv[2];
 

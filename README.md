@@ -30,8 +30,8 @@ const input = require('fs').readFileSync('/dev/stdin').toString();
 | 1주차 | Big-O 표기법        | |
 | 2주차 | 구현(Implementation) | 10808, 16236, 11332|
 | 3주차 | 탐색(배열 탐색, 문자열 탐색, 완전탐색) | 2665, 14500, 15684 |
-| 4주차 | DFS, BFS                                               | |
-| 5주차 | DP,                                                    | |
+| 4주차 | DFS, BFS | 3187, 1260, 1987 |
+| 5주차 | DP                                                    | |
 | 6주차 | Priority Queue, Binary Search                          | |
 | 7주차 | ...                                                    | |
 

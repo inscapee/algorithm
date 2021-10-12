@@ -22,30 +22,29 @@ const visit = Array.from({ length: h }, () =>
   Array.from({ length: w }, () => 0)
 );
 
-// 가장 9높은 숫자
-let result = 0;
+// 가장 높은 숫자
+let result = 1;
 // 현재 카운팅 값
-let count = 0;
+let count = 1;
 
 // 지나온 알파벳 체크
-let visitedAlphabet = [arr[r][c]];
+let visitedAlphabet = {};
 
 function solution(h, w, arr) {
   function dfs(r, c, count) {
     for (let i = 0; i < 4; i++) {
       const nr = r + dx[i];
       const nc = c + dy[i];
-      console.log(nr, nc);
 
       if (
         nr >= 0 &&
         nc >= 0 &&
         nr < h &&
         nc < w &&
-        !visitedAlphabet.includes(arr[nr][nc]) &&
+        !visitedAlphabet[arr[nr][nc]] &&
         visit[nr][nc] === 0
       ) {
-        visitedAlphabet.push(arr[nr][nc]);
+        visitedAlphabet[arr[nr][nc]] = true;
         visit[nr][nc] = 1;
         count++;
 
@@ -54,10 +53,16 @@ function solution(h, w, arr) {
         }
 
         dfs(nr, nc, count);
+
+        count--;
+        visit[nr][nc] = 0;
+        visitedAlphabet[arr[nr][nc]] = false;
       }
     }
   }
 
+  visitedAlphabet[arr[0][0]] = true;
+  visit[0][0] = 1;
   dfs(0, 0, count);
 
   console.log(result);

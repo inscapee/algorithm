@@ -1,7 +1,7 @@
 /* 피보나치 */
 
 // const input = 17;
-const input = require('fs').readFileSync('/dev/stdin').toString();
+const input = require('fs').readFileSync('/dev/stdin').toString().trim();
 
 const fibonacci = index => {
   let i = 2;

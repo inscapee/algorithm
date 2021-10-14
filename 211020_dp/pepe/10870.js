@@ -15,7 +15,7 @@ const fibonacci = index => {
     i++;
   }
 
-  console.log(result)
-}
+  console.log(result[index]);
+};
 
 fibonacci(input);

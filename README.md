@@ -32,7 +32,7 @@ const input = require('fs').readFileSync('/dev/stdin').toString();
 | 3주차 | 탐색(배열 탐색, 문자열 탐색, 완전탐색) | 2665, 14500, 15684 |
 | 4주차 | DFS, BFS | 3187, 1260, 1987 |
 | 5주차 | DFS, BFS | 16948, 20058, 15971 | 
-| 6주차 | DP | 10870, 2631, 9656 |
+| 6주차 | DP(dynamic programming) | 10870, 2631, 9656 |
 | 7주차 | Priority Queue, Binary Search                          | |
 | 8주차 | ...                                                    | |
 

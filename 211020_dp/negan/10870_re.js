@@ -16,4 +16,4 @@ function solution(input) {
   console.log(arr);
 }
 
-solution(input);
+solution(parseInt(input));

@@ -32,10 +32,9 @@ const input = require('fs').readFileSync('/dev/stdin').toString();
 | 3주차 | 탐색(배열 탐색, 문자열 탐색, 완전탐색) | [2665](https://www.acmicpc.net/problem/2665), [14500](https://www.acmicpc.net/problem/14500), [15684](https://www.acmicpc.net/problem/15684)   |
 | 4주차 | DFS, BFS                               | [3187](https://www.acmicpc.net/problem/3187), [1260](https://www.acmicpc.net/problem/1260), [1987](https://www.acmicpc.net/problem/1987)       |
 | 5주차 | DFS, BFS                               | [16948](https://www.acmicpc.net/problem/16948), [20058](https://www.acmicpc.net/problem/20058), [15971](https://www.acmicpc.net/problem/15971) |
-| 6주차 | DP                                     | [1927](https://www.acmicpc.net/problem/1927), [11279](https://www.acmicpc.net/problem/11279), [1261](https://www.acmicpc.net/problem/1261)     |
-| 7주차 | Priority Queue, Binary Search          |                                                                                                                                                |
+| 6주차 | DP                                     | [10870](https://www.acmicpc.net/problem/10870), [2631](https://www.acmicpc.net/problem/2631), [9656](https://www.acmicpc.net/problem/9656)     |
+| 7주차 | Priority Queue, Binary Search          |                [1927](https://www.acmicpc.net/problem/1927), [11279](https://www.acmicpc.net/problem/11279), [1261](https://www.acmicpc.net/problem/1261)                                                                                                                                |
 | 8주차 | ...                                    |                                                                                                                                                |
-
 
 ## 공부할 내용
 

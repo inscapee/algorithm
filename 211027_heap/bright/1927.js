@@ -1,22 +1,22 @@
-// const input = require('fs').readFileSync('/dev/stdin').toString();
+const input = require('fs').readFileSync('/dev/stdin').toString();
 
-const input = `16
-3
-1
-5
-4
-7
-8
-2
-2
-0
-0
-0
-0
-0
-0
-0
-0`;
+// const input = `16
+// 3
+// 1
+// 5
+// 4
+// 7
+// 8
+// 2
+// 2
+// 0
+// 0
+// 0
+// 0
+// 0
+// 0
+// 0
+// 0`;
 
 const [n, ...inputs] = input.split('\n');
 

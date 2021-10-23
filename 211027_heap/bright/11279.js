@@ -1,19 +1,19 @@
-// const input = require('fs').readFileSync('/dev/stdin').toString().trim();
+const input = require('fs').readFileSync('/dev/stdin').toString().trim();
 
-const input = `13
-0
-1
-2
-0
-0
-3
-2
-1
-0
-0
-0
-0
-0`;
+// const input = `13
+// 0
+// 1
+// 2
+// 0
+// 0
+// 3
+// 2
+// 1
+// 0
+// 0
+// 0
+// 0
+// 0`;
 
 const [n, ...arr] = input.split('\n').map((s) => parseInt(s));
 
